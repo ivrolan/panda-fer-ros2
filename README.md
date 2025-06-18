@@ -1,5 +1,12 @@
-You can follow the same instructions of multipanda to create this docker
+# Panda FER with ROS2
 
+Clone the repo with the `--recursive` flag:
+
+```
+git clone --recursive <url>
+```
+
+This will include the [`franka_ros2` submodule](https://github.com/ivrolan/franka_ros2.git). This modifies the [franka_ros2 from mcbed](https://github.com/mcbed/franka_ros2.git) and fixes some problems with the `warehouse_ros` dependencies.
 
 ## Docker setup
 
